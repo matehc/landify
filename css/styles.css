@@ -1,0 +1,109 @@
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo--container {
+  width: 200px;
+  padding: 20px;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo--text {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.hero {
+  display: flex;
+  background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+  width: 100%;
+}
+.hero .hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero .hero-right {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+.hero .content {
+  margin-left: 80px;
+}
+.hero .content .content-textbox {
+  margin-bottom: 7%;
+  font-size: 2.55rem;
+}
+.hero .content .content-textbox .content--text {
+  font-size: 1.3rem;
+}
+
+.hero--img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cta {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.cta .cta--img {
+  height: 48px;
+  width: 48px;
+}
+.cta .cta--dash {
+  border-bottom: 3px solid #18191F;
+  width: 80px;
+}
+.cta .cta--text {
+  letter-spacing: 0.06875rem;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mbt-5 {
+  margin: 5px 0 5px 0;
+}
+
+.mbt-15 {
+  margin: 25px 0 25px 0;
+}
+
+.mbp {
+  margin: 0 0 18% 0;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
