@@ -1,0 +1,44 @@
+.customer {
+
+    .customer-container {
+        display: flex;
+        width: 77.09%;
+        margin: 0 auto;
+    }
+    .customer--count-box{
+        width: 350px;
+        height: calc(64*2);
+        display: flex;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .count {
+            font-size: 3rem;
+        }
+        
+        .customer--text {
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin-top: -30px;
+        }
+
+    }
+    .customer-logo-container {
+        flex: 1;
+    }
+
+    .customer-logo-img {
+        height: 100%;
+        margin: 5px 30px;
+        
+    }
+}
+
+
+.img-wrap {
+    display: inline-block;
+    width: 192px;
+    height: 108px;
+}
+
+
