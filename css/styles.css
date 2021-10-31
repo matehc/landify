@@ -102,6 +102,45 @@ body {
   margin-left: 5px;
 }
 
+.spad-150 {
+  padding: 150px 0;
+}
+
+.customer .customer-container {
+  display: flex;
+  width: 77.09%;
+  margin: 0 auto;
+}
+.customer .customer--count-box {
+  width: 350px;
+  height: 128;
+  display: flex;
+  margin-top: -20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.customer .customer--count-box .count {
+  font-size: 3rem;
+}
+.customer .customer--count-box .customer--text {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: -30px;
+}
+.customer .customer-logo-container {
+  flex: 1;
+}
+.customer .customer-logo-img {
+  height: 100%;
+  margin: 5px 30px;
+}
+
+.img-wrap {
+  display: inline-block;
+  width: 192px;
+  height: 108px;
+}
+
 * {
   padding: 0;
   margin: 0;
