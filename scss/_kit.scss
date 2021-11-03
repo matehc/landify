@@ -1,0 +1,31 @@
+
+.kit {
+    width: 100%;
+    background-color: #8C30F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 165px;
+    justify-content: space-around;
+    .kit--container {
+        width: 50.69%;
+        text-align: center;
+    }
+    .kit--heading {
+        font-size: 2.5rem;
+    }
+    .kit--desc {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .kit--feature {
+            display: flex;
+            & p {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+

@@ -90,8 +90,16 @@ body {
   margin: 5px 0 5px 0;
 }
 
-.mbt-15 {
+.mbt-25 {
   margin: 25px 0 25px 0;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
 }
 
 .mbp {
@@ -114,6 +122,16 @@ body {
 .sh {
   font-size: 3rem;
   margin-bottom: 24px;
+}
+
+.btn {
+  height: 40px;
+  width: 240px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #8C30F5;
+  border: 3px solid #FFFFFF;
+  outline: none;
 }
 
 .customer .customer-container {
@@ -193,8 +211,8 @@ body {
   height: 100%;
 }
 
-.features-section {
-  margin-bottom: 80px;
+.works {
+  margin-bottom: 150px;
 }
 
 .works {
@@ -248,6 +266,34 @@ body {
 .img-box-6 {
   grid-column: 3/4;
   grid-row: 4/5;
+}
+
+.kit {
+  width: 100%;
+  background-color: #8C30F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 165px;
+  justify-content: space-around;
+}
+.kit .kit--container {
+  width: 50.69%;
+  text-align: center;
+}
+.kit .kit--heading {
+  font-size: 2.5rem;
+}
+.kit .kit--desc {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.kit .kit--desc .kit--feature {
+  display: flex;
+}
+.kit .kit--desc .kit--feature p {
+  margin-left: 10px;
 }
 
 * {
