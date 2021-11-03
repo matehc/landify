@@ -19,8 +19,16 @@ body {
     margin: 5px 0 5px 0;
 }
 
-.mbt-15 {
+.mbt-25 {
     margin: 25px 0 25px 0;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
 }
 
 .mbp {
@@ -46,4 +54,14 @@ body {
 .sh{
     font-size: 3rem;
     margin-bottom: 24px;
+}
+
+.btn {
+    height: 40px;
+    width: 240px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    color: #8C30F5;
+    border: 3px solid #FFFFFF;
+    outline: none;
 }
