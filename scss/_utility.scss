@@ -65,3 +65,26 @@ body {
     border: 3px solid #FFFFFF;
     outline: none;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEFF4;
+}
+
+a:visited {
+    color: #EEEFF4;
+}
+
+a:link {
+    color: #EEEFF4;
+}
+
+a:hover {
+    color: #EEEFF4;
+    text-decoration: none;
+}
+

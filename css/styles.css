@@ -134,6 +134,28 @@ body {
   outline: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #EEEFF4;
+}
+
+a:visited {
+  color: #EEEFF4;
+}
+
+a:link {
+  color: #EEEFF4;
+}
+
+a:hover {
+  color: #EEEFF4;
+  text-decoration: none;
+}
+
 .customer .customer-container {
   display: flex;
 }
@@ -275,6 +297,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 80px 165px;
+  margin-bottom: 150px;
   justify-content: space-around;
 }
 .kit .kit--container {
@@ -294,6 +317,59 @@ body {
 }
 .kit .kit--desc .kit--feature p {
   margin-left: 10px;
+}
+
+.footer {
+  background-color: #0B0D17;
+  color: #F4F5F7;
+  height: 396px;
+}
+.footer .copy-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px 0 50px;
+}
+.footer .copy-social .copy {
+  display: flex;
+}
+.footer .copy-social .copy p {
+  margin-left: 5px;
+}
+.footer .copy-social .social {
+  display: flex;
+}
+.footer .copy-social .social .social-icon {
+  margin-left: 38.93px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.footer--link-container {
+  height: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer--link-container .link-box {
+  width: 17.71%;
+  height: 155px;
+}
+.footer--link-container .link--heading {
+  font-size: 1.125rem;
+  margin-bottom: 12px;
+}
+.footer--link-container .link-list {
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+.footer--link-container .link-list:not(:last-child) {
+  margin-bottom: 12px;
+}
+.footer--link-container .store {
+  width: 162px;
+  height: 48px;
 }
 
 * {
